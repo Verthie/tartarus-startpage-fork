@@ -22,7 +22,7 @@ const default_config = {
   "openLastVisitedTab": true,
   "tabs": [
     {
-      "name": "chill",
+      "name": "chi ll",
       "background_url": "src/img/banners/cbg-2.gif",
       "categories": [
         {
