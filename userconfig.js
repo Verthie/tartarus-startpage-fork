@@ -1,5 +1,7 @@
 let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 
+
+
 const default_config = {
   overrideStorage: true,
   temperature: {
@@ -28,43 +30,18 @@ const default_config = {
         {
           "name": "Social Media",
           "links": [
-            {
-              "name": "messenger",
-              "url": "https://messenger.com/",
-              "icon": "brand-messenger",
-              "icon_color": "#7daea3"
-            },
-            {
-              "name": "youtube",
-              "url": "https://www.youtube.com/",
-              "icon": "brand-youtube-filled",
-              "icon_color": "#ea6962"
-            },
+            { "name": "messenger", "url": "https://messenger.com/", "icon": "brand-messenger", "icon_color": "#7daea3" },
+            { "name": "youtube", "url": "https://www.youtube.com/", "icon": "brand-youtube-filled", "icon_color": "#ea6962" },
             { "name": "reddit", "url": "https://www.reddit.com/", "icon": "brand-reddit", "icon_color": "#e78a4e" },
-            {
-              "name": "twitter",
-              "url": "https://twitter.com/home",
-              "icon": "brand-twitter-filled",
-              "icon_color": "#7daea3"
-            }
+            { "name": "twitter", "url": "https://twitter.com/home", "icon": "brand-twitter-filled", "icon_color": "#7daea3" }
           ]
         },
         {
           "name": "Standard",
           "links": [
             { "name": "ggdeals", "url": "https://gg.deals/", "icon": "coin", "icon_color": "#ada9a5" },
-            {
-              "name": "rock paper shotgun",
-              "url": "https://www.rockpapershotgun.com/news",
-              "icon": "cut",
-              "icon_color": "#987ecf"
-            },
-            {
-              "name": "humble bundle",
-              "url": "https://www.humblebundle.com/bundles",
-              "icon": "device-gamepad-2",
-              "icon_color": "#ea6962"
-            },
+            { "name": "rock paper shotgun", "url": "https://www.rockpapershotgun.com/news", "icon": "cut", "icon_color": "#987ecf" },
+            { "name": "humble bundle", "url": "https://www.humblebundle.com/bundles", "icon": "device-gamepad-2", "icon_color": "#ea6962" },
             { "name": "retronator", "url": "https://www.retronator.com/", "icon": "rainbow", "icon_color": "#89b482" }
           ]
         },
@@ -73,7 +50,7 @@ const default_config = {
           "links": [
             { "name": "netflix", "url": "https://www.netflix.com", "icon": "brand-netflix", "icon_color": "#ea6962" },
             { "name": "hianime", "url": "https://hianime.to/", "icon": "helicopter-landing", "icon_color": "#ca90d1" },
-            { "name": "animepahe", "url": "https://animepahe.ru/", "icon": "world", "icon_color": "#ea6962" },
+            { "name": "animepahe", "url": "https://animepahe.ru/", "icon": "torii", "icon_color": "#ea6962" },
             { "name": "twitch", "url": "https://www.twitch.tv/", "icon": "brand-twitch", "icon_color": "#d3869b" }
           ]
         }
@@ -87,7 +64,8 @@ const default_config = {
           "name": "dev",
           "links": [
             { "name": "github", "url": "https://github.com/", "icon": "brand-github", "icon_color": "#7daea3" },
-            { "name": "gitlab", "url": "https://gitlab.com/", "icon": "brand-gitlab", "icon_color": "#e78a4e" }
+            { "name": "gitlab", "url": "https://gitlab.com/", "icon": "brand-gitlab", "icon_color": "#e78a4e" },
+            { "name": "codecks", "url": "https://verth.codecks.io/decks", "icon": "cards", "icon_color": "#987ecf" }
           ]
         },
         {
@@ -100,24 +78,10 @@ const default_config = {
         {
           "name": "stuff",
           "links": [
-            {
-              "name": "gmail",
-              "url": "https://mail.google.com/mail/u/0/",
-              "icon": "brand-gmail",
-              "icon_color": "#ea6962"
-            },
-            {
-              "name": "artstation",
-              "url": "https://www.artstation.com/?sort_by=community",
-              "icon": "chart-area",
-              "icon_color": "#7daea3"
-            },
-            {
-              "name": "linkedin",
-              "url": "https://www.linkedin.com/feed/",
-              "icon": "brand-linkedin",
-              "icon_color": "#7daea3"
-            }
+            { "name": "calendar", "url": "https://calendar.google.com/calendar/u/0/r", "icon": "calendar", "icon_color": "#7daea3" },
+            { "name": "gmail", "url": "https://mail.google.com/mail/u/0/", "icon": "brand-gmail", "icon_color": "#ea6962" },
+            { "name": "artstation", "url": "https://www.artstation.com/?sort_by=community", "icon": "chart-area", "icon_color": "#7daea3" },
+            { "name": "linkedin", "url": "https://www.linkedin.com/feed/", "icon": "brand-linkedin", "icon_color": "#7daea3" }
           ]
         }
       ]
